@@ -17,9 +17,9 @@ export default defineConfig({
     vuetify({
       autoImport: true,
       styles: {
-        configFile: 'src/styles/settings.scss',
-      },
-    }),
+        configFile: 'src/styles/settings.scss'
+      }
+    })
   ],
   define: { 'process.env': {} },
   resolve: {
@@ -33,10 +33,10 @@ export default defineConfig({
       '.mjs',
       '.ts',
       '.tsx',
-      '.vue',
-    ],
+      '.vue'
+    ]
   },
   server: {
-    port: 3000,
-  },
+    port: 3000
+  }
 })
